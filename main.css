@@ -1,0 +1,106 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+header .container{
+    display:flex;
+    padding: 10px;
+    color:rgb(255, 0, 0);
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo{
+    width: 100px;
+}
+
+header nav li{
+    display: inline;
+    margin-left: 18px;
+    font-size: 20px;
+}
+
+header nav li a{
+    color: white;
+    text-decoration: none;
+}
+
+.russo-one-regular {
+    font-family: "Russo One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+header h1{
+    font-size: 90px;
+}
+
+body{
+    width: 100vw;
+    height: 65vw;
+    background-image: url("./gran_turismo/Captura\ de\ tela\ 2024-06-23\ 223637.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center center;
+}
+
+section video{
+    width: 1000px;
+    margin: 150px;
+}
+
+section p{
+    color: 	#ffff00;
+    font-size: 20px;
+}
+
+section h2{
+    color:rgb(3, 3, 151);
+    font-size: 30px;
+    
+}
+
+section .container{
+    display: flex;
+    align-items: center;
+}
+
+form input,
+form textarea,
+form button {
+    display:block;
+    width: 900px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+button{
+    display: block;
+    text-decoration: none;
+}
+
+.compre{
+    margin-left: 750px;
+    margin-top: 100px;
+}
+
+#purchase h2{
+    margin-left: 300px;
+    font-size: 60px;
+}
+
+footer {
+    background-color: #182c61;
+    color: #ecf0f1;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 110px;
+}
+
+button a {
+    text-decoration: none;
+}
+
